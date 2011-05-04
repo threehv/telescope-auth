@@ -9,3 +9,8 @@ group :test do
   gem 'mocha'
   gem 'infinity_test'
 end
+
+group :development do
+  gem 'brightbox'
+  gem 'capistrano-ext'
+end
