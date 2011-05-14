@@ -5,7 +5,7 @@ class AccountObserver < ActiveRecord::Observer
   end
 
   def after_save(account)
-    account.personas.new(:title => "Standard").update_attribute(:deletable, false) if account.pending?
+    account.personas.new(:title => "Standard", :email => account.email).update_attribute(:deletable, false) if account.pending?
     AccountMailer.forgot_password(account).deliver if account.recently_forgot_password?
   end
   
