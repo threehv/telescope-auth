@@ -25,6 +25,7 @@ set(:deploy_to) { File.join("", "home", user, application) }
 set :repository, "git@threehv.sourcerepo.com:threehv/telescope_login.git"
 set :scm, :git
 set :deploy_via, :remote_cache
+set :branch, "master"
 
 set :global_shared_files, %w(config/database.yml config/app_config.yml)
 
