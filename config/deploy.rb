@@ -22,7 +22,7 @@ set(:deploy_to) { File.join("", "home", user, application) }
 # the local directory.  You should probably change this if you use
 # another repository, like git or subversion.
 
-set :repository, "git@github.com:threehv/telescope-auth.git"
+set :repository, "git@threehv.sourcerepo.com:threehv/telescope_login.git"
 set :scm, :git
 set :deploy_via, :remote_cache
 
