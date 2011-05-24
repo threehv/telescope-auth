@@ -5,7 +5,6 @@
 .rvmrc
 Thumbs.db
 log/*.log
-Capfile
 config/app_config.yml
 config/database.yml
 config/mongrel_cluster.yml
