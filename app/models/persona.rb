@@ -39,6 +39,10 @@ class Persona < ActiveRecord::Base
     dob
   end
   
+  def email
+    account.email
+  end
+  
   protected
   
   def check_deletable!
