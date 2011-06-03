@@ -57,7 +57,7 @@ a#forgot_password        { color: #AAA; margin: 0 0.3em; text-decoration: underl
 .notice                  { margin: 0 0 1.7em 0; border: 1px solid #60964f; padding: 0.5em; background: #b3dca7; }
 .fieldWithErrors label   { color: #002c53; }
 .error,                  
-#errorExplanation        { margin: 0 0 1.7em 0; padding: 0.5em 1em; background: #002c53; color: #222; }
+#errorExplanation        { margin: 0 0 1.7em 0; padding: 0.5em 1em; background: #002c53; color: #fff; font-weight: bold; }
 #errorExplanation h2     { font-size: 1.1em; color: #222; }
 #errorExplanation ul     { margin: 0 0 0 1.2em; list-style: square; }
 #errorExplanation ul li  { padding: 0; border: 0; }
