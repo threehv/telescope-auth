@@ -9,10 +9,10 @@ set :application, "login"
 
 # Primary domain name of your application. Used in the Apache configs
 set :domain, "login.telescopestudios.com"
-set :domain_aliases, "login.app005.3hv.co.uk"
+set :domain_aliases, "login.app008.3hv.co.uk"
 
 ## List of servers
-server "app005.3hv.co.uk", :app, :web, :db, :primary => true
+server "app008.3hv.co.uk", :app, :web, :db, :primary => true
 set :user, "telescope"
 
 # Target directory for the application on the web and app servers.
