@@ -29,6 +29,10 @@ set :branch, "master"
 
 set :global_shared_files, %w(config/database.yml config/app_config.yml)
 
+task :delete_account do
+  run "cd #{deploy_to}/current && rake accounts:remove email=#{ENV['email']} RAILS_ENV=#{rails_env}"
+end
+
 
 ### Other options you can set ##
 # Comma separated list of additional domains for Apache
